@@ -139,6 +139,7 @@ process.nextTick(function() {
 			multiline : true,
 			markdown  : true,
 			markup    : true,
+			example   : true,
 			mask      : argv.mask || preCompiler.mask
 		}, function(err, sg) {
 			if (err) throw err
